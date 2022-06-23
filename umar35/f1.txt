@@ -1,0 +1,32 @@
+git init
+
+git config --global user.name umar khan
+git config --global --replace-all user.email umargd123@gmail.com
+
+mkdir umar35
+cd umar45
+
+touch f1.txt
+notepad f1.txt
+
+git add f1.txt
+git status
+
+git commit -m"f1 commited"
+
+ssh-keygen -t ed25519 -C "umargd123@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEkPdLl5AxO5uMxMj+zQND3ySppFkQI8FNbkIHq+74JF umargd123@gmail.com
+
+
+git remote add origin https://github.com/Umarkhan7312/umar35.git
+
+
+
+
+git log -v
+
