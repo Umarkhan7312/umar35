@@ -25,8 +25,8 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEkPdLl5AxO5uMxMj+zQND3ySppFkQI8FNbkIHq+74JF
 
 git remote add origin https://github.com/Umarkhan7312/umar35.git
 
-
-
+git push -u origin master
 
 git log -v
+
 
